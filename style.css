@@ -109,8 +109,10 @@ a {
     background-color: #e5e7eb;
     font-size: 36px;
 }
-.qouteauthor {
-    font: normal bold 24 px roboto;
+h3.qouteauthor {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
     align-self:flex-end;
 }
 .info h2{
