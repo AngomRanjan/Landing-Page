@@ -95,3 +95,21 @@ a {
 .call-to-action button {
     border: 2px solid white;
 }
+.qoute .container{
+    flex-direction: column;
+    justify-content: center;    
+    margin:0 auto;
+    padding: 30px 90px;
+}
+.qoutetext {    
+    font: italic lighter 36px roboto;
+    margin-bottom: .2em;
+}
+.qoute {
+    background-color: #e5e7eb;
+    font-size: 36px;
+}
+.qouteauthor {
+    font: normal bold 24 px roboto;
+    align-self:flex-end;
+}
