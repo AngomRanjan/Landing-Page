@@ -113,3 +113,36 @@ a {
     font: normal bold 24 px roboto;
     align-self:flex-end;
 }
+.info h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin:16px 0px
+}
+
+.info .container {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;       
+}
+
+.infobox img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+.infobox p {
+    text-align: center;
+}
